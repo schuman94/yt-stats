@@ -7,6 +7,9 @@
     <title>YT STATS</title>
 </head>
 <body>
-
+    <?php
+        require('auxiliar.php');
+    ?>
+    <?= var_dump(subs('thelastzoan')) ?>
 </body>
 </html>
